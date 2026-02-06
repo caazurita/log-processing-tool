@@ -1,0 +1,28 @@
+{
+  "name": "log-processing-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caazurita/log-processing-tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/caazurita/log-processing-tool/issues"
+  },
+  "homepage": "https://github.com/caazurita/log-processing-tool#readme",
+  "devDependencies": {
+    "@types/node": "^25.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

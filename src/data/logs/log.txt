@@ -1,0 +1,37 @@
+2026-02-06 17:16:04 2026-02-06 21:16:04.515843+00:00 [info] <0.216.0> Running boot step rabbit_observer_cli defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.515874+00:00 [info] <0.216.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.515925+00:00 [info] <0.216.0> Running boot step background_gc defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.515988+00:00 [info] <0.216.0> Running boot step routing_ready defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.516010+00:00 [info] <0.216.0> Running boot step pre_flight defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.516044+00:00 [info] <0.216.0> Running boot step notify_cluster defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.516085+00:00 [info] <0.216.0> Running boot step networking defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.516113+00:00 [info] <0.216.0> Running boot step rabbit_quorum_queue_periodic_membership_reconciliation defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.516183+00:00 [info] <0.216.0> Running boot step definition_import_worker_pool defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.516200+00:00 [info] <0.294.0> Starting worker pool 'definition_import_pool' with 8 processes in it
+2026-02-06 17:16:04 2026-02-06 21:16:04.516421+00:00 [info] <0.216.0> Running boot step cluster_name defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.516446+00:00 [info] <0.216.0> Running boot step virtual_host_reconciliation defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.516632+00:00 [info] <0.216.0> Running boot step direct_client defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.516691+00:00 [info] <0.216.0> Running boot step cluster_tags defined by app rabbit
+2026-02-06 17:16:04 2026-02-06 21:16:04.517280+00:00 [info] <0.216.0> Running boot step rabbit_management_load_definitions defined by app rabbitmq_management
+2026-02-06 17:16:04 2026-02-06 21:16:04.517330+00:00 [info] <0.476.0> Resetting node maintenance status
+2026-02-06 17:16:04 2026-02-06 21:16:04.604203+00:00 [error] <0.498.0> Deprecated features: `management_metrics_collection`: Feature `management_metrics_collection` is deprecated.
+2026-02-06 17:16:04 2026-02-06 21:16:04.604203+00:00 [error] <0.498.0> By default, this feature can still be used for now.
+2026-02-06 17:16:04 2026-02-06 21:16:04.604203+00:00 [error] <0.498.0> Its use will not be permitted by default in a future minor RabbitMQ version and the feature will be removed from a future major RabbitMQ version; actual versions to be determined.
+2026-02-06 17:16:04 2026-02-06 21:16:04.604203+00:00 [error] <0.498.0> To continue using this feature when it is not permitted by default, set the following parameter in your configuration:
+2026-02-06 17:16:04 2026-02-06 21:16:04.604203+00:00 [warning] <0.498.0>     "deprecated_features.permit.management_metrics_collection = true"
+2026-02-06 17:16:04 2026-02-06 21:16:04.604203+00:00 [warning] <0.498.0> To test RabbitMQ as if the feature was removed, set this in your configuration:
+2026-02-06 17:16:04 2026-02-06 21:16:04.604203+00:00 [warning] <0.498.0>     "deprecated_features.permit.management_metrics_collection = false"
+2026-02-06 17:16:04 2026-02-06 21:16:04.621972+00:00 [info] <0.534.0> Management plugin: HTTP (non-TLS) listener started on port 15672
+2026-02-06 17:16:04 2026-02-06 21:16:04.622041+00:00 [info] <0.562.0> Statistics database started.
+2026-02-06 17:16:04 2026-02-06 21:16:04.622078+00:00 [info] <0.561.0> Starting worker pool 'management_worker_pool' with 3 processes in it
+2026-02-06 17:16:04 2026-02-06 21:16:04.628598+00:00 [info] <0.573.0> Prometheus metrics: HTTP (non-TLS) listener started on port 15692
+2026-02-06 17:16:04 2026-02-06 21:16:04.628642+00:00 [info] <0.476.0> Ready to start client connection listeners
+2026-02-06 17:16:04 2026-02-06 21:16:04.629333+00:00 [info] <0.617.0> started TCP listener on [::]:5672
+2026-02-06 17:16:04  completed with 4 plugins.
+2026-02-06 17:16:04 2026-02-06 21:16:04.769442+00:00 [info] <0.476.0> Server startup complete; 4 plugins started.
+2026-02-06 17:16:04 2026-02-06 21:16:04.769442+00:00 [info] <0.476.0>  * rabbitmq_prometheus
+2026-02-06 17:16:04 2026-02-06 21:16:04.769442+00:00 [info] <0.476.0>  * rabbitmq_management
+2026-02-06 17:16:04 2026-02-06 21:16:04.769442+00:00 [info] <0.476.0>  * rabbitmq_management_agent
+2026-02-06 17:16:04 2026-02-06 21:16:04.769442+00:00 [info] <0.476.0>  * rabbitmq_web_dispatch
+2026-02-06 17:16:04 2026-02-06 21:16:04.919962+00:00 [info] <0.10.0> Time to start RabbitMQ: 6860 ms
+2026-02-06 17:16:04 2026-02-06 21:16:04.919962+00:00 [error] <0.10.0> Time to start RabbitMQ: 6860 ms
